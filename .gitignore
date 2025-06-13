@@ -1,0 +1,10 @@
+.DS_Store
+
+nvim/plugin/packer_compiled.lua
+
+gh
+fish
+htop
+btop
+ranger
+rover
