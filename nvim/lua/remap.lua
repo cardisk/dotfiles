@@ -66,7 +66,7 @@ vim.keymap.set("n", "<leader><Right>", "<C-W><Right>")
 -- Plugins remaps -------------------------------------------------------------
 
 -- Telescope
-vim.keymap.set("n", "<C-f>", "<cmd> Telescope find_files <CR>")
+vim.keymap.set("n", "<C-f>", "<cmd> Telescope find_files hidden=true<CR>")
 vim.keymap.set("n", "<C-b>", "<cmd> Telescope buffers <CR>")
 vim.keymap.set("n", "<C-g>", "<cmd> Telescope git_files <CR>")
 vim.keymap.set("n", "<C-j>", "<cmd> Telescope jumplist <CR>")
