@@ -1,0 +1,28 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/cardisk/.config/" . "emacs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/cardisk/.config/emacs/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/cardisk/.config/emacs/" (26760 936 699684 523000) "elpa/" "local/" "init.el" "auto-save-list/" "custom.el" "smex-items" "../" "./")
+
+ ("/Users/cardisk/.config/" (26759 61916 403653 369000) "karabiner/" "fish/" "rover/" ".git/" "kitty/" "btop/" "mpv/" ".gitignore" "ghc/" "htop/" "README.md" "emacs/" "nvim/" "gh/" ".DS_Store" "ranger/" "../" "./")
+
+ ("/Users/cardisk/" (26759 62192 812918 565000) "f1-mercedes.mov" ".zsh_sessions/" ".viminfo" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" "wg0-client-matteo.conf" ".swiftpm/" ".m2/" ".vscode/" "Documents/" ".Trash/" ".gradle/" "Applications/" "Movies/" ".ssh/" "f1-mercedes.mp4" ".zshenv" "Virtual Machines.localized/" "Public/" ".lesshst" ".zcompdump-Matteos-Mac-mini-5.9.zwc" "Library/" "Desktop/" ".zsh_history" "code/" ".nuget/" ".zprofile" ".zcompdump-Matteo’s Mac mini-5.9" "Pictures/" ".local/" ".mime.types" ".zshrc" ".zprofile.bak" ".wget-hsts" ".CFUserTextEncoding" ".DS_Store" ".vim/" ".docker/" "frt/" ".skiko/" "Music/" ".config/" ".zcompdump-Matteos-Mac-mini-5.9" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

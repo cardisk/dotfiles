@@ -1,21 +1,28 @@
- (menu-bar-mode -1)
+; customization of the file where emacs puts its things
+(setq custom-file "~/.config/emacs/custom.el")
+; loading this configuration
+(load-file custom-file)
+
+; taken from: https://github.com/rexim/dotfiles
+(load-file "~/.config/emacs/local/rc.el")
+
+; search inside local folder
+(add-to-list 'load-path "~/.config/emacs/local/")
+
+(require 'simpc-mode)
+(add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
+
+; basic configuration
+(menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (setq ring-bell-function 'ignore)
+(set-face-attribute 'default nil :height 180)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(gruber-darker))
- '(custom-safe-themes
-   '("e13beeb34b932f309fb2c360a04a460821ca99fe58f69e65557d6c1b10ba18c7"
-     default))
- '(package-selected-packages '(gruber-darker-theme)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+; ido-mode
+(rc/require 'smex)
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+(ido-mode 1)
+(ido-everywhere 1)
