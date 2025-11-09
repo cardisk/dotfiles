@@ -2,26 +2,117 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/cardisk/code/frtelemetry/resources/" . "styles/")
+ ("/Users/cardisk/code/frtelemetry/build/_deps/raylib-src/" . "src/")
+ ("/Users/cardisk/code/frtelemetry/build/_deps/" . "rapidjson-src/")
+ ("/Users/cardisk/code/frtelemetry/build/" . "_deps/")
+ ("/Users/cardisk/code/frtelemetry/" . "src/")
+ ("/Users/cardisk/code/overleaf-toolkit/" . "bin/")
+ ("/Users/cardisk/code/remark/" . "build/")
+ ("/Users/cardisk/code/" . "ros1_bag_parser/")
+ ("/Users/cardisk/" . "code/")
  ("/Users/cardisk/.config/" . "emacs/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/cardisk/"
+ "/Users/cardisk/code/ros1_bag_parser/"
+ "/Users/cardisk/code/cobol-testing/"
+ "/Users/cardisk/code/"
+ "/Users/cardisk/code/rosx_introspection/include/rosx_introspection/"
+ "/Users/cardisk/code/rosx_introspection/include/rosx_introspection/ros_utils/"
+ "/Users/cardisk/code/rosx_introspection/test/"
+ "/Users/cardisk/code/rosx_introspection/"
+ "/Users/cardisk/code/rosx_introspection/cmake/"
+ "/Users/cardisk/frt/"
+ "/Users/cardisk/code/frtelemetry/src/"
+ "/Users/cardisk/code/frtelemetry/build/_deps/rapidjson-src/"
+ "/Users/cardisk/code/frtelemetry/resources/styles/"
+ "/Users/cardisk/code/frtelemetry/"
+ "/Users/cardisk/code/frtelemetry/build/_deps/raylib-src/src/"
+ "/Users/cardisk/code/frtelemetry/resources/"
+ "/Users/cardisk/code/frtelemetry/resources/cone/"
+ "/Users/cardisk/code/overleaf-toolkit/bin/"
+ "/Users/cardisk/code/remark/src/"
+ "/Users/cardisk/code/remark/build/"
+ "/Users/cardisk/code/remark/"
+ "/Users/cardisk/code/twitch/"
  "/Users/cardisk/.config/emacs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- 
+ "main.c"
+ "main"
+ "array.h"
+ "extract.py"
+ "style_frt.h"
+ "raygui.h"
+ "CMakeLists.txt"
+ "raylib.h"
+ "main.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/cardisk/.config/emacs/" (26760 936 699684 523000) "elpa/" "local/" "init.el" "auto-save-list/" "custom.el" "smex-items" "../" "./")
+ ("/Users/cardisk/" (26896 38426 534504 670000) "f1-mercedes.mov" ".cmake/" ".zsh_sessions/" ".viminfo" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" "wg0-client-matteo.conf" ".swiftpm/" ".m2/" ".vscode/" "Documents/" ".Trash/" ".gradle/" "Applications/" "Movies/" ".ssh/" ".conan2/" "f1-mercedes.mp4" ".zshenv" "Virtual Machines.localized/" "Public/" ".lesshst" ".zcompdump-Matteos-Mac-mini-5.9.zwc" "Library/" "Desktop/" ".zsh_history" "code/" ".nuget/" ".zprofile" ".zcompdump-Matteo’s Mac mini-5.9" "Pictures/" ".local/" ".mime.types" ".zshrc" ".zprofile.bak" ".wget-hsts" ".CFUserTextEncoding" ".thumbnails/" ".DS_Store" ".vim/" ".docker/" "frt/" ".skiko/" "Music/" ".config/" ".zcompdump-Matteos-Mac-mini-5.9" "../" "./")
+
+ ("/Users/cardisk/code/" (26896 38407 355316 676000) "frtelemetry/" "llvm-test/" "ros1_bag_parser/" "rosbags/" "test/" ".DS_Store" "overleaf-toolkit/" "../" "./")
+
+ ("/Users/cardisk/code/ros1_bag_parser/" (26896 39687 382695 162000) "stb_ds.h" "extract.py" "main" ".git/" "array.h" ".gitignore" "main.c" "example.bag" ".#main.c" "#main.c#" "../" "./")
+
+ ("/Users/cardisk/code/cobol-testing/" (26894 3100 459373 517000) "hello" "hello.cob" "../" "./")
+
+ ("/Users/cardisk/.config/emacs/" (26876 2393 119436 221000) "elpa/" "local/" "init.el" "auto-save-list/" "custom.el" "smex-items" "ido.last" "../" "./")
+
+ ("/Users/cardisk/code/remark/" (26852 13695 504942 249000) "src/" ".cache/" ".git/" "build/" ".gitignore" "README.md" "compile_commands.json" ".DS_Store" "CMakeLists.txt" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/resources/" (26852 60236 270795 514000) "logo.svg" "fonts/" "logo.png" "styles/" "cone/" "fr-25/" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/resources/styles/" (26852 14534 85504 325000) "style_frt.rgs" "style_frt.h" "../" "./")
+
+ ("/Users/cardisk/frt/" (26866 29893 188044 235000) ".vscode/" "Core23/" "ros_devcontainer/" "Pilot_23/" ".DS_Store" "info_gestionale.txt" "../" "./")
+
+ ("/Users/cardisk/code/rosx_introspection/include/rosx_introspection/" (26870 22307 182804 918000) "ros_message.hpp" "ros_parser.hpp" "ros_field.hpp" "ros_type.hpp" "tree.hpp" "ros_utils/" "contrib/" "deserializer.hpp" "variant.hpp" "details/" "builtin_types.hpp" "serializer.hpp" "stringtree_leaf.hpp" "../" "./")
+
+ ("/Users/cardisk/code/rosx_introspection/test/" (26870 5109 303933 94000) "test_parser.cpp" "test_ros2.cpp" "test_ros1.cpp" "test_encoding.cpp" "../" "./")
+
+ ("/Users/cardisk/code/rosx_introspection/include/rosx_introspection/ros_utils/" (26870 5109 302088 915000) "ros2_helpers.hpp" "ros1_helpers.hpp" "../" "./")
+
+ ("/Users/cardisk/code/rosx_introspection/" (26870 7885 851967 714000) "src/" ".git/" "CHANGELOG.rst" "build/" ".github/" ".clang-format" "conanfile.txt" "CONTRIBUTORS.md" ".gitignore" "README.md" "include/" ".pre-commit-config.yaml" "python/" "package.xml" "cmake/" "test/" "LICENSE" "CMakeLists.txt" "../" "./")
+
+ ("/Users/cardisk/code/rosx_introspection/cmake/" (26870 5109 300386 903000) "get_cpm.cmake" "CPM.cmake" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/src/" (26852 14709 125231 434000) "raygui.h" "main.c" "camera.h" "atlas.h" "utils.h" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/" (26852 61002 920574 655000) "src/" ".git/" "build/" ".gitignore" "resources/" "CMakeLists.txt" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/build/_deps/rapidjson-src/" (26852 60959 206535 402000) "thirdparty/" "RapidJSONConfigVersion.cmake.in" "RapidJSONConfig.cmake.in" ".travis.yml" "CMakeModules/" "license.txt" ".git/" "doc/" "readme.zh-cn.md" ".gitattributes" "package.json" ".gitignore" "library.json" "appveyor.yml" "travis-doxygen.sh" "readme.md" ".gitmodules" "include/" "example/" "rapidjson.autopkg" "CHANGELOG.md" "include_dirs.js" "bin/" "test/" "CMakeLists.txt" "docker/" "RapidJSON.pc.in" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/build/_deps/" (26852 60856 214239 710000) "rapidjson-subbuild/" "raylib-build/" "rosx_introspection-src/" "rosx_introspection-subbuild/" "rapidjson-build/" "rapidjson-src/" ".DS_Store" "raylib-src/" "rosx_introspection-build/" "raylib-subbuild/" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/build/" (26852 60886 482659 57000) "CMakeCache.txt" "_deps/" "cpm-package-lock.cmake" "CPackSourceConfig.cmake" "CPackConfig.cmake" "frtelemetry" "cmake_install.cmake" "resources/" "Makefile" "CMakeFiles/" "cmake/" "CPM_modules/" ".DS_Store" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/src/styles/" (26852 13017 446995 429000) "style_jungle.h" "style_enefete.h" "style_ashes.h" "style_candy.h" "style_terminal.h" "style_amber.h" "style_cherry.h" "style_cyber.h" "style_lavanda.h" "style_sunny.h" "style_rltech.h" "style_dark.h" "style_genesis.h" "style_bluish.h" "../" "./")
+
+ ("/Users/cardisk/code/remark/build/" (26800 30639 43454 548000) "CMakeCache.txt" "remark" "cmake_install.cmake" "Makefile" "CMakeFiles/" "compile_commands.json" "remark_autogen/" ".qt/" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/resources/cone/" (26847 41076 980521 284000) "cone.mtl" "cone.glb" "cone.obj" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/build/_deps/raylib-src/src/" (26847 39359 927692 529000) "rcore.c" "raudio.c" "raylib.rc.data" "raylib.h" "raylib.ico" "rglfw.c" "raylib.dll.rc.data" "external/" "rtext.c" "raymath.h" "raylib.rc" "rgestures.h" "raylib.dll.rc" "rtextures.c" "utils.c" "rlgl.h" "shell.html" "Makefile" "config.h" "rshapes.c" "CMakeLists.txt" "platforms/" "rmodels.c" "minshell.html" "utils.h" "rcamera.h" "../" "./")
+
+ ("/Users/cardisk/code/frtelemetry/build/_deps/raylib-src/" (26847 40553 664030 16000) "src/" ".git/" ".github/" "examples/" "CONTRIBUTING.md" "raylib.pc.in" ".gitignore" "ROADMAP.md" "logo/" "README.md" "FAQ.md" "build.zig" "HISTORY.md" "projects/" "CHANGELOG" "build.zig.zon" "CONVENTIONS.md" "cmake/" "LICENSE" ".DS_Store" "CMakeLists.txt" "tools/" "BINDINGS.md" "CMakeOptions.txt" "../" "./")
+
+ ("/Users/cardisk/code/overleaf-toolkit/bin/" (26809 33456 222586 370000) "rename-env-vars-5-0" "rename-rc-vars" "docker-compose" "mongo" "dev/" "up" "logs" "run-script" "stop" "start" "doctor" "shell" "images" "backup-config" "upgrade" "error-logs" "init" "../" "./")
+
+ ("/Users/cardisk/code/overleaf-toolkit/" (26809 33456 224311 511000) "data/" ".git/" "doc/" "lib/" ".github/" ".gitignore" "README.md" ".editorconfig" "config/" "CHANGELOG.md" "bin/" "LICENSE" "../" "./")
+
+ ("/Users/cardisk/code/remark/src/" (26800 30633 919336 850000) "main.cpp" "remark.cpp" "remark.hpp" "../" "./")
+
+ ("/Users/cardisk/code/twitch/" (26707 51731 482896 291000) "v1.js" "../" "./")
 
  ("/Users/cardisk/.config/" (26759 61916 403653 369000) "karabiner/" "fish/" "rover/" ".git/" "kitty/" "btop/" "mpv/" ".gitignore" "ghc/" "htop/" "README.md" "emacs/" "nvim/" "gh/" ".DS_Store" "ranger/" "../" "./")
-
- ("/Users/cardisk/" (26759 62192 812918 565000) "f1-mercedes.mov" ".zsh_sessions/" ".viminfo" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" "wg0-client-matteo.conf" ".swiftpm/" ".m2/" ".vscode/" "Documents/" ".Trash/" ".gradle/" "Applications/" "Movies/" ".ssh/" "f1-mercedes.mp4" ".zshenv" "Virtual Machines.localized/" "Public/" ".lesshst" ".zcompdump-Matteos-Mac-mini-5.9.zwc" "Library/" "Desktop/" ".zsh_history" "code/" ".nuget/" ".zprofile" ".zcompdump-Matteo’s Mac mini-5.9" "Pictures/" ".local/" ".mime.types" ".zshrc" ".zprofile.bak" ".wget-hsts" ".CFUserTextEncoding" ".DS_Store" ".vim/" ".docker/" "frt/" ".skiko/" "Music/" ".config/" ".zcompdump-Matteos-Mac-mini-5.9" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

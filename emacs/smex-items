@@ -1,16 +1,52 @@
 
 ;; ----- smex-history -----
 (
- cd
- 5x5
- arp
- dbx
- dig
- erc
- ert
+ move-text-down
+ move-text-up
+ list-packages
+ compile
+ replace-regexp
+ temp-buffer-resize-mode
+ man
 )
 
 ;; ----- smex-data -----
 (
- 
+ (compile . 268)
+ (pwd . 1)
+ (shell . 3)
+ (replace-regexp . 12)
+ (whitespace-mode . 6)
+ (customize-mode . 5)
+ (align . 1)
+ (align-regexp . 1)
+ (capitalize-region . 2)
+ (upcase-region . 4)
+ (cmake-ts-mode . 1)
+ (list-packages . 4)
+ (cmake-mode . 1)
+ (customize-variable . 3)
+ (man . 8)
+ (query-replace . 6)
+ (term . 4)
+ (magit . 19)
+ (magit-push . 1)
+ (objc-mode . 1)
+ (simpc-mode . 1)
+ (make-face . 1)
+ (delete-trailing-whitespace . 1)
+ (magit-revert . 1)
+ (magit-pull . 1)
+ (help . 2)
+ (version . 1)
+ (package-list-packages . 2)
+ (cobol-mode . 1)
+ (text-mode . 1)
+ (auto-lower-mode . 2)
+ (downcase-region . 1)
+ (comment-box . 2)
+ (comment-line . 3)
+ (temp-buffer-resize-mode . 2)
+ (move-text-up . 1)
+ (move-text-down . 1)
 )
